@@ -15,4 +15,4 @@ latex/
 # Ignore temporary directories.
 tmp/
 # Ignore executable files.
-MatrixToGraph
+Example
