@@ -11,9 +11,9 @@ find_package(OpenCV REQUIRED)
 
 link_directories(/usr/lib)
 
-add_executable (Example src/Example.cpp)
+add_executable (DrawBubble src/DrawBubble.cpp)
  
-target_link_libraries(Example ${OpenCV_LIBS})
+target_link_libraries(DrawBubble boost_program_options ${OpenCV_LIBS})
 
 
 
