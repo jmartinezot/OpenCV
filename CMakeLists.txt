@@ -17,6 +17,7 @@ add_executable (FindColourObjectWebcam.out src/FindColourObjectWebcam.cpp)
 add_executable (HistExample.out src/HistExample.cpp)
 add_executable (ShowWebcam.out src/ShowWebcam.cpp)
 add_executable (BackProjectionExample.out src/BackProjectionExample.cpp)
+add_executable (FilterRedWebcam.out src/FilterRedWebcam.cpp)
 # add_executable (CamShift.out src/CamShift.cpp)
  
 target_link_libraries(DrawBubble.out boost_program_options ${OpenCV_LIBS})
@@ -25,6 +26,7 @@ target_link_libraries(FindColourObjectWebcam.out boost_program_options ${OpenCV_
 target_link_libraries(HistExample.out boost_program_options ${OpenCV_LIBS})
 target_link_libraries(ShowWebcam.out boost_program_options ${OpenCV_LIBS})
 target_link_libraries(BackProjectionExample.out boost_program_options ${OpenCV_LIBS})
+target_link_libraries(FilterRedWebcam.out boost_program_options ${OpenCV_LIBS})
 # target_link_libraries(CamShift.out boost_program_options ${OpenCV_LIBS})
 
 
